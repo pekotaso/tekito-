@@ -27,7 +27,7 @@ public class JK_muteki {
         // 指の数をカウントする
         int fingers_remain = JK_fingers;
 
-        // パーの最大数から0までループでカウントする
+        // 0からパーの最大数までループする
         for (int i = 0; fingers_remain >= 0; i++) {
             // 残りの指の本数がチョキで割り切れる場合のみ、指の合計の条件を満たす
             if (fingers_remain % 2 == 0) {
