@@ -1,3 +1,5 @@
+package gomokunarabe;
+
 import java.util.Scanner;
 
 public class gomokunarabe1 {
